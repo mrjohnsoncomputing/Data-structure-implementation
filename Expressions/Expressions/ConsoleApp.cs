@@ -2,11 +2,12 @@
 
 namespace Expressions
 {
-    class Program
+    class ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Hello World!");
+            Testing.TestRPN();
         }
     }
 }
